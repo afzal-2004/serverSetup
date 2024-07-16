@@ -1,0 +1,20 @@
+.main {
+    background-image:
+        url('../../../public/bg(1).svg');
+    width: 100vw;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card {
+    @apply text-white flex w-[360px] h-[185px] border-2 border-white rounded-md justify-between text-base items-center;
+
+    background: radial-gradient(rtl, ltr, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0), rgba(234, 191, 255, 1), rgba(135, 38, 183, 0));
+    backdrop-filter: blur(70px);
+    row-gap: 20px;
+    column-gap: 15px;
+
+}
